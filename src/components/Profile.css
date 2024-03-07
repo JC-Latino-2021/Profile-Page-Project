@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+#root {
+    width: 70%;
+    padding: 30px 15% 30px 15%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #8400E5;
+}
+
+.ProfilePic {
+    width: 250px;
+    height: auto;
+}
+
+.ProfileIntro {
+    width: fit-content;
+    padding: 30px 0px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+
+@media screen and (max-width: 450px) {
+    #root {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+        background-color: #FF0080;
+    }
+    .ProfileIntro {
+        width: fit-content;
+        padding: 20px 0px;
+    }
+}

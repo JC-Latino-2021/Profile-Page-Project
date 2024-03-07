@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #8400E5;
+}
+
+
+@media screen and (max-width: 450px) {
+  #root {
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
