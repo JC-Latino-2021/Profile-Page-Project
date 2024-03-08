@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.form-container {
+    width: 96%;
+    padding: 2%;
+    text-align: center;
+    background-color: #FF0080;
+    color: white;
+}
+
+form {    
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+}
+label {  
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.buttons-container {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.Form-Title {
+    font-size: 24px;
+    color: white;
+}
+
+.UserName {
+    margin: 15px;
+    height: 25px;
+}
+.UserEmail {
+    margin: 15px;
+    height: 25px;
+}
+.UserMessage {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+}
+.SubmitButton {
+    width: 150px;
+    padding: 0.75rem 2.5rem;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    border-radius: 0.5rem;
+    margin: 10px 20px;
+    background-color: #FF0080;
+    color: #FFF3FF;
+}
+
+hr {
+    color: white;
+    height: 2px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 750px) {
+    label {
+        text-align: center;
+        display: block;
+        width: max-content;
+    }
+    .UserMessage {
+        width: 100%;
+        height: 100px;
+    }
+}
